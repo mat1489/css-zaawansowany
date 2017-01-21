@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+}
+a:link{
+    
+    color: orange;
+}
+
+
+a:visited{
+    color: deepskyblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*a:active{
+    color: fuchsia;
+}*/
+
+/*focus nadpisuje pseudoklasę actie!!!*/
+
+a:focus{
+    color: firebrick;
+}
+#p1{
+    color:blue;
+}
+#p1:target{
+    color: green;
+}
+
+#p1:target::before{
+    color: green;
+    content: "przed";
+}
+
+p:lang(pl){
+    font-style: italic;
+    color: darkcyan;
+}
+
+
+.klient:nth-child(even){
+   background-color: beige;
+}
+
+.klient:nth-child(odd){
+   background-color: lightpink;
+}
+
+.klient:nth-child(5n+1){
+   background-color: olivedrab;
+}
