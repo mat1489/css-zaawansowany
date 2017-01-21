@@ -1,0 +1,17 @@
+#box{
+    width: 100px;
+    height: 100px;
+    border: 1px dashed blue;
+    background-color: lime;
+    margin: 20px;
+    -webkit-transition: height 3s ease-out 1s;
+    -o-transition: height 3s ease-out 1s ;
+    transition: height 3s ease-out 1s;
+    
+}
+
+#box:hover{
+    height: 300px;
+    cursor: pointer;
+ 
+}
